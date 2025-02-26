@@ -3,8 +3,8 @@ import shutil
 
 
 # Define root and raw folder paths
-root_folder = "C:\\Trondheim conference\\papers\\papers_aerodynamic\\"
-raw_folder = "C:\\Trondheim conference\\papers\\papers_aerodynamic\\raw"
+root_folder = "path to main fodler"
+raw_folder = "path to raw folder"
 
 # Get the list of all files and directories in the raw_folder
 files_and_dirs = os.listdir(raw_folder)

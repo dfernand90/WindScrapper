@@ -99,8 +99,8 @@ def main():
     """
     Main execution function to run the web scraper.
     """
-    html_path = "C:\\Trondheim conference\\papers\\papers_aerodynamic\\p1"
-    html_assets = "C:\\Trondheim conference\\papers\\papers_aerodynamic\\p1\\Investigations of the long-term extreme buffeting response of long-span bridges using importance sampling Monte Carlo simulations - ScienceDirect_files"
+    html_path = "path to a paper"
+    html_assets = "path to assest folder"
     query = "What are the force coefficients for this project?"
     
     llm_web_scraper("llama3:8b", html_path, html_assets, query)

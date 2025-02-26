@@ -2,7 +2,7 @@ import os
 from llm_web_scrapper import llm_web_scraper
 
 # Define root folder path
-root_folder = "C:\\Trondheim conference\\papers\\papers_aerodynamic\\"
+root_folder = "path to url folder"
 
 # Get all subfolders in the root folder (except for the 'raw' folder)
 subfolders_in_root_folder = [f for f in os.listdir(root_folder) if os.path.isdir(os.path.join(root_folder, f)) and f != 'raw']

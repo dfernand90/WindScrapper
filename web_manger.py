@@ -80,7 +80,7 @@ def download_webpage(url_or_doi, save_folder):
 
 if __name__ == "__main__":
     # Example usage
-    save_dir = "C:\\Trondheim conference\\papers\\papers_aerodynamic"
+    save_dir = "path to your save folder"
     url = "https://medium.com/@jerryjliu98/how-unstructured-and-llamaindex-can-help-bring-the-power-of-llms-to-your-own-data-3657d063e30d"  # Replace with your URL or DOI
     doi = "10.1016/j.jweia.2017.02.011"
     html_path, html_assets = download_webpage(url, save_dir)
